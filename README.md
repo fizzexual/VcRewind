@@ -1,10 +1,14 @@
-# VcRewind
+# VcRewind 🍂
 
 Medal-style **"clip that"** button for Discord voice calls, as a Vencord plugin.
 Keeps the last 15 seconds to 5 minutes of what you heard in the call (and optionally your own mic)
 and saves it to a file the moment you press the button, hit the keybind, or run `/clip`.
 
 **✅ Verified: 6 September 2026** on Discord Stable (Electron 42 / Chrome 148) with Vencord `main`.
+
+## About
+
+VcRewind is a userplugin for Vencord users who want to save a funny or important moment from a Discord voice call after it happened. It keeps a rolling buffer from Discord's own voice engine audio dump and writes an Opus or WAV clip on demand, with no screen capture or extra drivers. It works on current Discord and Vencord and is installed by building Vencord from source with the plugin added.
 
 ## Features
 
